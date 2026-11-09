@@ -9,7 +9,6 @@ An Android library built with **Jetpack Compose** for creating animated metaball
 - [Features](#features)
 - [Requirements and compatibility](#requirements-and-compatibility)
 - [Demo video](#demo-video)
-- [Project structure](#project-structure)
 - [Installation](#installation)
 - [Quick start](#quick-start)
 - [Layout configuration](#layout-configuration)
@@ -60,38 +59,6 @@ The RuntimeShader rendering path requires API 33 or higher. On API 31 and 32, th
 
 If your Git hosting platform supports inline video previews, open the linked MP4 to play it. The video is a demonstration asset; it is not required to build or use the library.
 
-## Project structure
-
-```text
-.
-├── app/                         # Sample application
-│   └── src/main/java/ir/mehdisekoba/sample/
-│       ├── MainActivity.kt
-│       └── ui/
-│           ├── Media3BannerVideo.kt
-│           ├── screen/
-│           │   ├── MetaballScreen.kt
-│           │   └── MetaballHeader.kt
-│           └── data/
-├── metaball/                    # Android library module
-│   └── src/main/java/ir/mehdisekoba/metaball/
-│       ├── avatar/
-│       │   ├── MetaballAvatar.kt
-│       │   ├── MetaballAvatarConfig.kt
-│       │   ├── MetaballMotion.kt
-│       │   ├── MetaballShader.kt
-│       │   ├── MetaballShaderRenderer.kt
-│       │   ├── MetaballVideoSource.kt
-│       │   └── LiquifyClock.kt
-│       ├── layout/
-│       │   └── MetaballLayout.kt
-│       ├── scroll/
-│       │   ├── MetaballScrollConfig.kt
-│       │   └── MetaballScrollState.kt
-│       └── util/
-└── gradle/
-    └── libs.versions.toml       # Gradle Version Catalog
-```
 
 ## Installation
 
